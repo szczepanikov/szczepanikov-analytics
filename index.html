@@ -13,9 +13,7 @@
       height: 100vh;
       background: #f9f9f9;
     }
-    h1 {
-      color: #333;
-    }
+    h1 { color: #333; }
     a.login-btn {
       display: inline-block;
       padding: 12px 24px;
@@ -26,16 +24,14 @@
       border-radius: 6px;
       font-weight: bold;
     }
-    a.login-btn:hover {
-      background: #ff0050;
-    }
+    a.login-btn:hover { background: #ff0050; }
   </style>
 </head>
 <body>
   <h1>Szczepanikov TikTok Analytics Demo</h1>
   <p>Click below to log in with TikTok:</p>
-  
-  <a class="login-btn" href="https://www.tiktok.com/auth/authorize/?client_key=awfdo14f7hgjrjfo&scope=user.info.basic,video.list,video.data&response_type=code&redirect_uri=https://szczepanikov.github.io/szczepanikov-analytics/callback.html?state=demo">
+
+  <a class="login-btn" href="https://www.tiktok.com/v2/auth/authorize/?client_key=awfdo14f7hgjrjfo&scope=user.info.basic&response_type=code&redirect_uri=https%3A%2F%2Fszczepanikov.github.io%2Fszczepanikov-analytics%2Fcallback.html&state=demo">
     Login with TikTok
   </a>
 </body>
